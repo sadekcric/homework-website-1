@@ -168,3 +168,66 @@ border: none;
 }
 /* Hand Watch Image section end */
 /* Footer Section */
+
+footer{
+  background:var(--dark-1) ;
+  width: 100%;
+  height: 575px;
+  color:#fff;
+  display: flex;
+  align-items: center;
+}
+
+/* future div */
+.footer-container{
+  width:70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+}
+.footer-container h4{
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-container p{
+  max-width: 485px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin: 15px 0 24px;
+}
+.footer-container ul{
+  display: flex;
+  gap:30px;
+
+}
+.footer-container ul li{
+  list-style: none;
+}
+
+/* input div+submit btn */
+.email h6{
+  font-size: 25px;
+  font-weight: 600;
+}
+.email input[type=email]{
+  color: #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+padding:20px 0 20px 20px;
+margin-top: 30px;
+width: 325px;
+background-color: var(--dark-1);
+border: 1px solid #fff;
+}
+.email input[type=submit]{
+  color: var(--orange);
+font-size: 20px;
+font-weight: 600;
+padding: 20px;
+border: none;
+display: block;
+margin-top: 20px;
+}
