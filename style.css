@@ -20,7 +20,7 @@ header{
   height: 810px;
   background-image: url('images/banner/banner1.png');
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: cover;
   background-position: center;
   
 }
