@@ -40,7 +40,7 @@ header{
   color: var(--dark-1);
   font-size: 65px;
   font-weight: 700;
-  width: 525px;
+  max-width: 525px;
 }
 /* title paragraph */
 .header-title p{
@@ -48,7 +48,7 @@ header{
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
-width: 495px;
+max-width: 495px;
 margin-top: 25px;
 }
 
@@ -230,4 +230,5 @@ padding: 20px;
 border: none;
 display: block;
 margin-top: 20px;
+border-radius: 5px;
 }
